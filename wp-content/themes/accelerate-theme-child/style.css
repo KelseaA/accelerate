@@ -139,4 +139,38 @@ div.case-study-images img{
 	border: 1px solid #ddd;
 }
 
+/*Contact form page*/
+
+.page-content{
+	width: 700px;
+	margin: 0 auto;
+}
+
+#nf-field-1-container{
+	width: 48.5%;
+	display:inline-block;
+	margin-right: 2%;
+}
+
+#nf-field-2-container{
+	width: 48.5%;
+	display:inline-block;
+}
+
+.nf-field-label label{
+    font-weight: normal !important;
+    font-size: 16px !important;
+}
+
+#nf-field-4{
+	float: right;
+	background: #45ac9d;
+	font-size: 17px;
+    color: white;
+    font-weight: bolder;
+    padding: 15px 60px;
+    text-align: center;
+    border: none;
+}
+
 
