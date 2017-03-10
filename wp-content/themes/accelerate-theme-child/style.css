@@ -173,4 +173,63 @@ div.case-study-images img{
     border: none;
 }
 
+/********************	About Page    *********************/
+#about-primary{
+	width: 100%;
+	padding: 0;
+}
+#about-content{
+	width: 100%;
+}
+
+.about-hero {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left bottom / cover rgba(0, 0, 0, 0);
+    margin-bottom: 50px;
+}
+
+.about-hero h1{
+	width: 700px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: normal;
+	padding: 100px 0;
+	margin: 0 auto;
+}
+
+.green{
+	color: #45ac9d;
+}
+
+.about-intro h3{
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.about-intro h3,
+.about-intro p{
+	text-align: center;
+}
+
+.about-services{
+	width: 850px;
+	margin: 0 auto;
+}
+
+.title-description{
+	width: 600px;
+}
+
+.about-individual-service:nth-child(odd) .title-description{
+	float: right;
+}
+
+.about-individual-service:nth-child(even) .title-description{
+	float: left;
+}
+
+
+
+
+
+
 
