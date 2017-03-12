@@ -40,12 +40,32 @@ function create_custom_post_types() {
 }
 add_action( 'init', 'create_custom_post_types' );
 
-// add_filter( 'storm_social_icons_type', create_function( '', 'return "icon-sign";' ) );
 
-// add_filter( 'storm_social_icons_size', create_function( '', 'return "normal";' ) );
-// add_filter( 'storm_social_icons_size', create_function( '', 'return "large";' ) );
-// add_filter( 'storm_social_icons_size', create_function( '', 'return "2x";' ) );
-// add_filter( 'storm_social_icons_size', create_function( '', 'return "3x";' ) );
-// add_filter( 'storm_social_icons_size', create_function( '', 'return "4x";' ) );
+function accelerate_theme_child_widget_init() {
+    
+    register_sidebar( array(
+        'name' =>__( 'Homepage sidebar', 'accelerate-theme-child'),
+        'id' => 'sidebar-2',
+        'description' => __( 'Appears on the static front page template', 'accelerate-theme-child' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+    ) );
+    
+}
+add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
+
+// Hook into Simple Twitter Tweets widget on Front page and dynamically add handle after title-tag
+function add_twitter_handle( $title ) {
+        // Fetch handle that is stored in options table but not output by STT widget
+        $stt_options = get_option( 'widget_pi_simpletwittertweets' );
+            $twitter_handle = $stt_options[2]['name'];
+            if ( !is_front_page() ) {
+                return $title;
+            }
+        return $title .= '<div class="twitterhandle">@'. $twitter_handle . '</div>';
+        }
+add_filter('widget_title', 'add_twitter_handle');
 
 ?>

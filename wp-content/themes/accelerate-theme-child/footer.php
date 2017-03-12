@@ -16,7 +16,6 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="site-info">
 				<div class="site-description">
-				<!-- <p><?php bloginfo('description'); ?></p> -->
 				<p><span class="green">Accelerate</span> is a strategy and marketing agency aimed at making our clients visible and building their businesses.</p>
 				<p>&copy; <?php the_time('Y'); ?> <?php bloginfo('title'); ?>, LLC
 				</div>

@@ -38,9 +38,11 @@
     background: none repeat scroll 0 0 #45ac9d;
 }
 
-.homepage-featured-work{
+.homepage-featured-work,
+.homepage-services{
 	margin-left: 0;
 	margin-bottom: 60px;
+	border: 1px solid #fff;
 }
 
 .individual-featured-work{
@@ -50,18 +52,22 @@
 	margin: 0 15px 120px;
 }
 
-.homepage-featured-work{
-	border: 1px solid #fff;
+.individual-service{
+	float: left;
+	list-style: none;
+	margin: 0 10px 120px;
 }
 
-section.featured-work h4{
+section.featured-work h4,
+section.services h4{
 	text-align: center;
 	font-size: 16.5px;
 	margin: 20px 0 40px;
 	text-transform: uppercase;
 }
 
-section.featured-work h3{
+section.featured-work h3,
+section.services h3{
 	text-align: center;
 	font-size: 16.5px;
 }
@@ -70,11 +76,26 @@ section.recent-posts{
 	clear: both;
 }
 
-.blog-post {
-	width: 50%;
+.post-entry:last-child{
+	margin-bottom: 0;
 }
 
-.blog-post h4 {
+.blog-post {
+	width: 45%;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.read-more-link{
+    font-size: 18px !important;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #45ac9d;
+    text-transform: uppercase;
+}
+
+.blog-post h4,
+.widget-title {
 	font-size: 16px;
 	font-family: 'Montserrat';
 	color: #a6a6a6;
@@ -82,10 +103,44 @@ section.recent-posts{
 	margin-top: 10px;
 }
 
-.blog-post h2 {
+.blog-post h2,
+.twitterhandle {
 	font-size: 24px;
 	font-family: 'Montserrat';
+	margin: 36px 0 12px;
+	color: #3b3b3b;
 	font-weight: bold;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+
+.blog-page .sidebar{
+	border-left: none !important;
+}
+
+.blog-page .main-content{
+	border-right: 1px solid #bfbfbf;
+	width: 63%;
+}
+
+.widget{
+	padding: 0;
+	padding-left: 40px;
+	border-bottom: 1px solid #BFBFBF;
+}
+
+.widget:last-child{
+	border-bottom: none;
+}
+
+.widget ul{
+	list-style: none;
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+
+.tweets{
+	margin-left: 0;
 }
 
 .blog-post .read-more-link {
@@ -94,6 +149,35 @@ section.recent-posts{
 	font-weight: bold;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+.widget-area{
+	width: 45%;
+	float: right;
+}
+
+.widget-area li{
+	list-style: none;
+	font-weight: normal;
+	font-family: 'open sans';
+	font-size: 16.5px;
+	line-height: 28px;
+}
+
+.widget_search-form{
+	border-bottom: none;
+	margin-bottom: 40px;
+}
+
+.widget-title{
+	color: #45ac9d;
+    font-weight: 600;
+    font-size: 0.82em;
+    text-transform: capitalize;
+}
+
+.navigation {
+	border-top: none;
 }
 
 .menu-social-media-nav-container ul{
