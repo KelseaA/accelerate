@@ -291,8 +291,34 @@ div.case-study-images img{
 
 /********************	404 Page    *********************/
 
+.main-404{
+/*	width: 900px;*/
+	clear: both;
+	margin-top: 100px;
+/*	margin-bottom: 200px;*/
+}
+
 .main-404 h2{
 	font-size: 32px;
+	margin-top: 0;
+}
+
+.main-404 p:last-child{
+	margin-bottom: 225px;
+}
+
+.map-404{
+	float: left;
+	width: 175px;
+}
+
+.text-404{
+	float: right;
+	width: 475px;
+}
+
+.bold{
+	font-weight: bold;
 }
 
 
