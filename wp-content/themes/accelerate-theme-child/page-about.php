@@ -40,7 +40,7 @@ get_header(); ?>
 						<div class="about-services">
 							<div class="about-individual-service">
 								<div class="title-description">
-									<h2><?php echo $title_1; ?></h2>
+									<h3><?php echo $title_1; ?></h3>
 									<p><?php echo $services_1; ?></p>
 								</div>
 								<?php if($image_1) {
@@ -49,7 +49,7 @@ get_header(); ?>
 							</div>
 							<div class="about-individual-service">
 								<div class="title-description">
-									<h2><?php echo $title_2; ?></h2>
+									<h3><?php echo $title_2; ?></h3>
 									<p><?php echo $services_2; ?></p>
 								</div>
 								<?php if($image_2) {
@@ -58,7 +58,7 @@ get_header(); ?>
 							</div>
 							<div class="about-individual-service">
 								<div class="title-description">
-									<h2><?php echo $title_3; ?></h2>
+									<h3><?php echo $title_3; ?></h3>
 									<p><?php echo $services_3; ?></p>
 								</div>
 								<?php if($image_3) {
@@ -67,13 +67,17 @@ get_header(); ?>
 							</div>
 							<div class="about-individual-service">
 								<div class="title-description">
-									<h2><?php echo $title_4; ?></h2>
+									<h3><?php echo $title_4; ?></h3>
 									<p><?php echo $services_4; ?></p>
 								</div>
 								<?php if($image_4) {
 									echo wp_get_attachment_image( $image_4, $size );
 								} ?>
 							</div>
+						</div>
+						<div class="about-contact">
+							<h2>Interested in working with us?</h2>
+							<a class="button" href="<?php echo get_page_link( get_page_by_title( 'Contact Us' )->ID ); ?>">Contact Us</a>
 						</div>
 					</div>
 				<?php endwhile; // end of the loop. ?>

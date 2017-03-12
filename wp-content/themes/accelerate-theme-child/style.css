@@ -96,6 +96,35 @@ section.recent-posts{
 	text-transform: uppercase;
 }
 
+.menu-social-media-nav-container ul{
+	margin: 0;
+}
+
+.social-media-navigation{
+	width: 11.5%;
+}
+
+.social-media-menu{
+	list-style: none;
+}
+
+.social-media-menu li{
+	float: left;
+	margin: 0 4px;
+	font-size: 8px;
+}
+
+.social-media-menu a{
+	color: #fff;
+	background-color: #333;
+	border-radius: 50%;
+	padding: 10px 6px 6px 8px;
+}
+
+#menu-item-14 a{
+	padding: 10px 10px 6px 10px
+}
+
 /*Case Studies*/
 article.case-study{
 	margin: 40px 1px 1px;
@@ -200,12 +229,16 @@ div.case-study-images img{
 	color: #45ac9d;
 }
 
-.about-intro h3{
+.about-intro{
+	margin-bottom: 80px;
+}
+
+.about-intro h4{
 	text-transform: uppercase;
 	font-size: 18px;
 }
 
-.about-intro h3,
+.about-intro h4,
 .about-intro p{
 	text-align: center;
 }
@@ -219,6 +252,15 @@ div.case-study-images img{
 	width: 600px;
 }
 
+.title-description h3{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.about-individual-service{
+	margin-bottom: 70px;
+}
+
 .about-individual-service:nth-child(odd) .title-description{
 	float: right;
 }
@@ -227,6 +269,31 @@ div.case-study-images img{
 	float: left;
 }
 
+.about-contact{
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+	width: 960px;
+	border-top: 1px dotted #e3e1e1;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.about-contact h2{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.about-contact .button{
+	margin-left: 20px;
+	padding: 15px 60px;
+}
+
+/********************	404 Page    *********************/
+
+.main-404 h2{
+	font-size: 32px;
+}
 
 
 

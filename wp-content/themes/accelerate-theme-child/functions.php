@@ -40,4 +40,12 @@ function create_custom_post_types() {
 }
 add_action( 'init', 'create_custom_post_types' );
 
+// add_filter( 'storm_social_icons_type', create_function( '', 'return "icon-sign";' ) );
+
+// add_filter( 'storm_social_icons_size', create_function( '', 'return "normal";' ) );
+// add_filter( 'storm_social_icons_size', create_function( '', 'return "large";' ) );
+// add_filter( 'storm_social_icons_size', create_function( '', 'return "2x";' ) );
+// add_filter( 'storm_social_icons_size', create_function( '', 'return "3x";' ) );
+// add_filter( 'storm_social_icons_size', create_function( '', 'return "4x";' ) );
+
 ?>
