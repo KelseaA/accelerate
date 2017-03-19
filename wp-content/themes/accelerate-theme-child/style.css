@@ -125,15 +125,19 @@ section.recent-posts{
 
 .widget{
 	padding: 0;
+}
+
+.sidebar .widget{
+	padding: 0;
 	padding-left: 40px;
 	border-bottom: 1px solid #BFBFBF;
 }
 
-.widget:last-child{
+.sidebar .widget:last-child{
 	border-bottom: none;
 }
 
-.widget ul{
+.sidebar .widget ul{
 	list-style: none;
 	margin-left: 0;
 	margin-bottom: 10px;
@@ -164,16 +168,20 @@ section.recent-posts{
 	line-height: 28px;
 }
 
-.widget_search-form{
+.sidebar .widget_search-form{
 	border-bottom: none;
 	margin-bottom: 40px;
 }
 
-.widget-title{
+.sidebar .widget-title{
 	color: #45ac9d;
     font-weight: 600;
     font-size: 0.82em;
     text-transform: capitalize;
+}
+
+.sidebar .widget li img{
+	border: none !important;
 }
 
 .navigation {
@@ -200,7 +208,7 @@ section.recent-posts{
 
 .social-media-menu a{
 	color: #fff;
-	background-color: #333;
+	background-color: #3b3b3b;
 	border-radius: 50%;
 	padding: 10px 6px 6px 8px;
 }
@@ -405,8 +413,13 @@ div.case-study-images img{
 	font-weight: bold;
 }
 
+/********************	Newsletter    *********************/
 
+#mc4wp-form-1{
+	margin-top: 15px;
+}
 
-
-
+.newsletter-email{
+	float: left;
+}
 

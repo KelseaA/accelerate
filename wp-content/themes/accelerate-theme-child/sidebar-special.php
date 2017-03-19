@@ -42,10 +42,15 @@
 	<div class="widget widget_events">
 		<h3 class="widget-title">Events</h3>		
 		<ul>
-			<li><a href=""><img src="upload/Event-1.jpg" alt=""></a></li>
-			<li><a href=""><img src="upload/Event-2.jpg" alt=""></a></li>
-			<li><a href=""><img src="upload/Event-3.jpg" alt=""></a></li>
+			<li><a href=""><img src="<?php echo home_url(); ?>/wp-content/uploads/2017/03/Event-1.png" alt=""></a></li>
+			<li><a href=""><img src="<?php echo home_url(); ?>/wp-content/uploads/2017/03/Event-2.png" alt=""></a></li>
+			<li><a href=""><img src="<?php echo home_url(); ?>/wp-content/uploads/2017/03/Event-3.png" alt=""></a></li>
 		</ul>
+	</div>
+
+	<div class="widget widget_newsletter">
+		<h3 class="widget-title">Newsletter Sign Up</h3>
+		<?php echo do_shortcode('[mc4wp_form]'); ?>
 	</div>
 	
 </aside>
