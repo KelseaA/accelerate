@@ -42,9 +42,9 @@
 	<div class="widget widget_events">
 		<h3 class="widget-title">Events</h3>		
 		<ul>
-			<li><a href=""><img src="<?php echo home_url(); ?>/wp-content/uploads/2017/03/Event-1.png" alt=""></a></li>
-			<li><a href=""><img src="<?php echo home_url(); ?>/wp-content/uploads/2017/03/Event-2.png" alt=""></a></li>
-			<li><a href=""><img src="<?php echo home_url(); ?>/wp-content/uploads/2017/03/Event-3.png" alt=""></a></li>
+			<li><a href=""><img src="<?php echo home_url(); ?>/wp-content/uploads/2017/03/event-1.png" alt=""></a></li>
+			<li><a href=""><img src="<?php echo home_url(); ?>/wp-content/uploads/2017/03/event-2.png" alt=""></a></li>
+			<li><a href=""><img src="<?php echo home_url(); ?>/wp-content/uploads/2017/03/event-3.png" alt=""></a></li>
 		</ul>
 	</div>
 
